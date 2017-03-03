@@ -1,0 +1,42 @@
+*{
+  background-color: black;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.top{
+  background-color: white;
+  color: black
+}
+h3{
+  color: BCBBBB;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  color: BCBBBB;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+p{
+  color: white;
+}
+#bigpic{
+  padding-top: 20px;
+}
+
+.title-super{
+  font-size: 60px;
+}
+
+.title-logo{
+  margin-top: 20px;
+}
