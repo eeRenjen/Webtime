@@ -1,0 +1,22 @@
+html,body{
+background-color: black;
+}
+#bigP{
+    padding: 0px;
+}
+.bigPicture{
+  background: url("https://blogs.nvidia.com/wp-content/uploads/2016/10/20-nintendo-switch.jpg");
+}
+.bigPicture img{
+    transition: opacity .3s;
+}
+
+.bigPicture img:hover {
+  opacity:0;
+}
+
+.cooltitle{
+  height: 500px;
+  background-color: blue;
+
+}
