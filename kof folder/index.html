@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/bootstrap/bootstrap.min.js"></script>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <title>Working!!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+
+    <title>Working!!</title>
   </head>
 
-  <div class = "row">
-    <div class= "col-md-12 center-block cooltitle">
-      <img class= "img-responsive" src="http://i66.tinypic.com/2cqed05.jpg" alt="">
-    </div>
-  </div>
 
-  <div class = "row">
-    <div class= "col-md-12">
-    </div>
-  </div>
+  <body>
+    <div class=" container" id="BodyContainer">
 
-  <body class= "container">
-    <div class = "row">
-        <div id= "bigP" class= "col-md-12 center-block bigPicture">
-          <a href="https://www.w3schools.com">
-         	<img class= "img-responsive" src="https://images3.alphacoders.com/112/thumb-1920-112095.jpg" alt="">
+      <div class="container" id="NavBarContainer">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> Navigation</a>
+          </div>
+
+          <div class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Tyrell Site</a></li>
+              <li><a href="#">Site 2</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> Dropdown <span class="caret"></span> </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+
         </div>
+
+      </div>
+
+
+      <div class = "row">
+        <div class= "jumbotron cooltitle">
+          <img class= "img-responsive" src="http://i66.tinypic.com/2cqed05.jpg" alt="">
+        </div>
+      </div>
+
+      <div class = "row">
+          <div id= "bigP" class= "col-md-12 center-block bigPicture">
+            <a href="#">
+           	<img class= "img-responsive" src="https://images3.alphacoders.com/112/thumb-1920-112095.jpg" alt="">
+          </div>
+      </div>
     </div>
+
+
 
 
 
