@@ -1,6 +1,12 @@
 html,body{
-background-color: black;
+  background-color: black;
 }
+
+.textBox1{
+}
+
+
+
 #bigP{
     padding: 0px;
 }
@@ -13,10 +19,4 @@ background-color: black;
 
 .bigPicture img:hover {
   opacity:0;
-}
-
-.cooltitle{
-  height: 500px;
-  background-color: blue;
-
 }
