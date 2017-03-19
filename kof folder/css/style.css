@@ -2,7 +2,8 @@ html,body{
   background-color: black;
 }
 
-.textBox1{
+div.jumbotron{
+  margin-bottom: 0px;
 }
 
 
